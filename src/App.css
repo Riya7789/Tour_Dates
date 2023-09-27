@@ -23,17 +23,18 @@ header{
   margin-left: 10px;
 }
 
-.row{
-  margin-top: 30px;
+
+.myCard{
+  margin: 30px ;
   display: flex;
-  gap:30px;
-  
+  gap: 30px;
+  padding: 0px 50px 0px 50px;
 }
 
-.row .column{
+
+.column{
   background: white;
   color: black;
-  flex: 1 ;
 }
 
 .column img{
@@ -42,8 +43,11 @@ header{
   object-fit: cover;
 }
 
+
 .text-container{
   padding:16px ;
+  color:black;
+  background-color: white;
 }
 
 .text-container .date{

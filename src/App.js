@@ -11,7 +11,31 @@ function App() {
     <div className="App">
       <Header/>
       <Date/>
-      <Card/>
+      <div className="myCard">
+        <Card
+        imageSrc={NewYorkImg}
+        locationName="New York"
+        date="Fri 27 Nov 2016"
+        description="Praesent tincidunt sed tellus ut"
+        buttonText="Buy Tickets"
+        />
+        
+        <Card
+          imageSrc={ParisImg}
+          locationName="Paris"
+          date="Sat 28 Nov 2016"
+          description="Praesent tincidunt sed tellus ut"
+          buttonText="Buy Tickets"
+          />     
+         
+        <Card
+          imageSrc={FranceImg}
+          locationName="France"
+          date="Sun 29 Nov 2016"
+          description="Praesent tincidunt sed tellus ut"
+          buttonText="Buy Tickets"
+          />
+      </div>
     </div>
   );
 }
